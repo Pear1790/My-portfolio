@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Siriwimon Sitasen - Engineering Portfolio">
+    <title>Siriwimon Sitasen | R&D and Software Engineer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Roboto+Mono:wght@400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- Image Lightbox Modal -->
+    <div id="lightbox" class="lightbox">
+        <span class="lightbox-close">&times;</span>
+        <img class="lightbox-content" id="lightbox-img" alt="Lightbox Content">
+        <div id="lightbox-caption"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="enterprise-nav">
+        <div class="nav-container">
+            <a href="#" class="logo">Siriwimon<span>.Dev</span></a>
+            <div class="nav-links">
+                <a href="#about">Profile</a>
+                <a href="#projects">Academic Projects</a>
+                <a href="#works">Works & Certifications</a>
+                <a href="#activities">Activities</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <button class="menu-btn" aria-label="Toggle Menu">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu">
+        <a href="#about" class="mobile-link">Profile</a>
+        <a href="#projects" class="mobile-link">Academic Projects</a>
+        <a href="#works" class="mobile-link">Works & Certifications</a>
+        <a href="#activities" class="mobile-link">Activities</a>
+        <a href="#contact" class="mobile-link">Contact</a>
+    </div>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section pattern-bg">
+            <div class="hero-content">
+                <p class="greeting slide-up fade-in">PORTFOLIO OVERVIEW</p>
+                <h1 class="hero-title slide-up fade-in delay-1">Siriwimon Sitasen</h1>
+                <h2 class="hero-subtitle slide-up fade-in delay-2">
+                    <span class="typing-text"></span><span class="cursor">|</span>
+                </h2>
+                <div class="hero-badges slide-up fade-in delay-3">
+                    <span class="corp-badge">IoT & Embedded</span>
+                    <span class="corp-badge">Full-Stack</span>
+                    <span class="corp-badge">R&D</span>
+                    <span class="corp-badge">Software Dev.</span>
+                </div>
+                <p class="hero-description slide-up fade-in delay-3 mt-4">
+                    I am a third-year Computer Science student in the Faculty of Science and Technology at Huachiew
+                    Chalermprakiet University, passionate about hardware-software integration, system design, and
+                    rigorous R&D. Highly committed to practical problem solving, building robust architectures, and
+                    advancing technological innovation in corporate environments.
+                </p>
+                <div class="hero-buttons slide-up fade-in delay-4">
+                    <a href="#projects" class="btn btn-primary">View Projects</a>
+                    <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                </div>
+            </div>
+            <div class="hero-graphic slide-up fade-in delay-5">
+                <!-- TODO: Un-comment the line below and add your image path to src="" -->
+                <!-- <img src="your-profile-image.jpg" alt="Siriwimon Sitasen" class="real-img profile-img lightbox-trigger" data-caption="Siriwimon Sitasen"> -->
+                <div class="image-placeholder profile-placeholder lightbox-trigger"
+                    data-caption="Siriwimon Sitasen - Profile Image">
+                    <i class="fas fa-camera"></i>
+                    <span>Insert Profile Image</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Profile & Skills Section -->
+        <section id="about" class="section bg-light">
+            <div class="section-container">
+                <div class="section-header">
+                    <h2 class="section-title">Professional <span class="accent-text">Profile</span></h2>
+                    <div class="title-underline"></div>
+                </div>
+
+                <div class="resume-grid">
+                    <!-- Education -->
+                    <div class="resume-column fade-up">
+                        <h3 class="resume-cat-title"><i class="fas fa-university"></i> Education</h3>
+                        <div class="corp-card">
+                            <div style="display: flex; align-items: center; gap: 15px; margin-bottom: 10px;">
+                                <img src="hculogo.png" alt="Huachiew Chalermprakiet University Logo" style="width: 45px; height: 45px; object-fit: contain;">
+                                <h4 style="margin: 0;">Huachiew Chalermprakiet University</h4>
+                            </div>
+                            <p class="text-accent text-sm fw-600 mb-2">2023 – 2027 (Expected)</p>
+                            <p><strong>B.S. Computer Science</strong></p>
+                            <p class="text-secondary">Faculty of Science and Technology | GPA: 3.78</p>
+                        </div>
+                        <div class="corp-card mt-3">
+                            <div style="display: flex; align-items: center; gap: 15px; margin-bottom: 10px;">
+                                <img src="ratwinitlogo.png" alt="Ratwinit Bangkaeo School Logo" style="width: 45px; height: 45px; object-fit: contain;">
+                                <h4 style="margin: 0;">Ratwinit Bangkaeo School</h4>
+                            </div>
+                            <p class="text-accent text-sm fw-600 mb-2">2016 – 2022</p>
+                            <p><strong>Science-Mathematics Program</strong></p>
+                            <p class="text-secondary">GPA: 3.50</p>
+                        </div>
+                    </div>
+
+                    <!-- Skills -->
+                    <div class="resume-column fade-up delay-1">
+                        <h3 class="resume-cat-title"><i class="fas fa-cogs"></i> Technical Competencies</h3>
+                        <div class="corp-card skills-card">
+                            <div class="skill-group">
+                                <h4>Core Languages</h4>
+                                <p>C/C++, Python, Java, Matlab, HTML, CSS, JavaScript</p>
+                            </div>
+                            <div class="skill-group border-top">
+                                <h4>Frameworks & Tools</h4>
+                                <p>React, Node.js, VS Code, Git/GitHub, Figma, Google Colab, Linux (Ubuntu), Docker
+                                    (Basic)</p>
+                            </div>
+                            <div class="skill-group border-top">
+                                <h4>Embedded & Protocols</h4>
+                                <p>ESP32, Arduino, Raspberry Pi, MQTT, TCP/IP, RESTful API, I2C</p>
+                            </div>
+                            <div class="skill-group border-top">
+                                <h4>Soft Skills</h4>
+                                <p>Analytical Problem-Solving, Teamwork, Learning Agility, Continuous Learning</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Academic Projects Section -->
+        <section id="projects" class="section">
+            <div class="section-container">
+                <div class="section-header">
+                    <h2 class="section-title">Academic <span class="accent-text">Projects</span></h2>
+                    <div class="title-underline"></div>
+                </div>
+                <div class="projects-grid">
+
+                    <div class="project-card corp-card fade-up">
+                        <div class="image-placeholder project-img lightbox-trigger"
+                            data-caption="CS3443: File Integrity Monitor">
+                            <i class="fas fa-image"></i><span>Insert Image</span>
+                        </div>
+                        <div class="project-content">
+                            <span class="course-code">CS3443 Cyber Security</span>
+                            <h3 class="mb-2">File Integrity Monitor</h3>
+                            <p>Application for Hash calculation, file integrity monitoring, and log generation.</p>
+                            <div class="tech-stack">Python, VS Code, HTML</div>
+                        </div>
+                    </div>
+
+                    <div class="project-card corp-card fade-up">
+                        <div class="image-placeholder project-img lightbox-trigger" data-caption="CS3773: Life Cal">
+                            <i class="fas fa-image"></i><span>Insert Image</span>
+                        </div>
+                        <div class="project-content">
+                            <span class="course-code">CS3773 Object-Oriented Dev</span>
+                            <h3 class="mb-2">Life Cal</h3>
+                            <p>A comprehensive calorie calculation and dietary monitoring application.</p>
+                            <div class="tech-stack">MySQL, PHP, Node.js, HTML/CSS</div>
+                        </div>
+                    </div>
+
+                    <div class="project-card corp-card fade-up">
+                        <div class="image-placeholder project-img lightbox-trigger"
+                            data-caption="CS3513: CPR IoT System">
+                            <i class="fas fa-image"></i><span>Insert Image</span>
+                        </div>
+                        <div class="project-content">
+                            <span class="course-code">CS3513 Microcontroller & IoT</span>
+                            <h3 class="mb-2">CPR Training Manikin</h3>
+                            <p>IoT system integrating sensors for CPR chest compressions with a web dashboard.</p>
+                            <div class="tech-stack">ESP32, C/C++, JS, HTML</div>
+                        </div>
+                    </div>
+
+                    <div class="project-card corp-card fade-up">
+                        <div class="image-placeholder project-img lightbox-trigger"
+                            data-caption="Database Management: Rescue Alert">
+                            <i class="fas fa-image"></i><span>Insert Image</span>
+                        </div>
+                        <div class="project-content">
+                            <span class="course-code">Database Systems</span>
+                            <h3 class="mb-2">Rescue Alert</h3>
+                            <p>An emergency accident reporting website designed for rapid dispatch.</p>
+                            <div class="tech-stack">MySQL, PHP, HTML</div>
+                        </div>
+                    </div>
+
+                    <div class="project-card corp-card fade-up">
+                        <div class="image-placeholder project-img lightbox-trigger"
+                            data-caption="CS4773: Ghosty Garden & Connect 4">
+                            <i class="fas fa-image"></i><span>Insert Image</span>
+                        </div>
+                        <div class="project-content">
+                            <span class="course-code">CS4773 Game Dev / Logic</span>
+                            <h3 class="mb-2">Ghosty Garden & Connect 4</h3>
+                            <p>Interactive game projects focusing on pathfinding, AI opponents, and state management.
+                            </p>
+                            <div class="tech-stack">Game Logic, Algorithms</div>
+                        </div>
+                    </div>
+
+                    <div class="project-card corp-card fade-up">
+                        <div class="image-placeholder project-img lightbox-trigger"
+                            data-caption="CS4473: Harmony Hotel">
+                            <i class="fas fa-image"></i><span>Insert Image</span>
+                        </div>
+                        <div class="project-content">
+                            <span class="course-code">CS4473 Full-Stack Dev</span>
+                            <h3 class="mb-2">Harmony Hotel</h3>
+                            <p>Complete property management system handling reservations and guest databases.</p>
+                            <div class="tech-stack">Database, Full-Stack frameworks</div>
+                        </div>
+                    </div>
+
+                    <div class="project-card corp-card fade-up">
+                        <div class="image-placeholder project-img lightbox-trigger"
+                            data-caption="CS3493: Personal Blog & Network Survey">
+                            <i class="fas fa-image"></i><span>Insert Image</span>
+                        </div>
+                        <div class="project-content">
+                            <span class="course-code">CS3493 / Networking</span>
+                            <h3 class="mb-2">Personal Blog & Network Survey</h3>
+                            <p>Development of CMS systems and comprehensive architectural surveys of physical networks.
+                            </p>
+                            <div class="tech-stack">Web Technologies, Networking</div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Works & Research Section -->
+        <section id="works" class="section bg-light">
+            <div class="section-container">
+                <div class="section-header">
+                    <h2 class="section-title">Works, Research & <span class="accent-text">Certifications</span></h2>
+                    <div class="title-underline"></div>
+                </div>
+
+                <div class="projects-grid mt-4">
+
+                    <div class="project-card corp-card fade-up">
+                        <div class="image-placeholder project-img lightbox-trigger"
+                            data-caption="Oral Presentation at กรุงเก่าวิจัย ครั้งที่ 8">
+                            <i class="fas fa-image"></i><span>Insert Image</span>
+                        </div>
+                        <div class="project-content">
+                            <span class="course-code text-accent"><i class="fas fa-award"></i> Oral Presentation</span>
+                            <h3 class="mb-2 text-sm">การพัฒนาแพลตฟอร์มแนะนำสถานที่ท่องเที่ยวสำหรับผู้พิการ</h3>
+                            <p>การประชุมวิชาการระดับชาติ "กรุงเก่าวิจัย" ครั้งที่ 8 2025 & EEAAT & ARU CON (Health Tech
+                                X 2 The Future)</p>
+                        </div>
+                    </div>
+
+                    <div class="project-card corp-card fade-up">
+                        <div class="image-placeholder project-img lightbox-trigger"
+                            data-caption="TESA Top Gun Rally 2025">
+                            <i class="fas fa-image"></i><span>Insert Image</span>
+                        </div>
+                        <div class="project-content">
+                            <span class="course-code text-accent"><i class="fas fa-trophy"></i> Competition</span>
+                            <h3 class="mb-2">TESA Top Gun Rally 2025</h3>
+                            <p>Participated in the national level embedded systems and software engineering competition
+                                (Defense Innovation).</p>
+                        </div>
+                    </div>
+
+                    <div class="project-card corp-card fade-up">
+                        <div class="image-placeholder project-img lightbox-trigger"
+                            data-caption="START UP THAILAND LEAGUE 2025">
+                            <i class="fas fa-image"></i><span>Insert Image</span>
+                        </div>
+                        <div class="project-content">
+                            <span class="course-code text-accent"><i class="fas fa-rocket"></i> Startup &
+                                Innovation</span>
+                            <h3 class="mb-2">START UP THAILAND LEAGUE 2025</h3>
+                            <p>Technology entrepreneurship, business model creation, and interactive pitching.</p>
+                        </div>
+                    </div>
+
+                    <div class="project-card corp-card fade-up">
+                        <div class="image-placeholder project-img lightbox-trigger" data-caption="Project President">
+                            <i class="fas fa-image"></i><span>Insert Image</span>
+                        </div>
+                        <div class="project-content">
+                            <span class="course-code text-accent"><i class="fas fa-users-cog"></i> Leadership</span>
+                            <h3 class="mb-2">Project President</h3>
+                            <p>โครงการส่งเสริมการพัฒนานักศึกษาด้านทักษะเทคโนโลยีสารสนเทศ “เรียนรู้ Fintech
+                                และภูมิคุ้มกันทางการเงินในยุค Digital”</p>
+                        </div>
+                    </div>
+
+                    <!-- Expandable Certifications Card -->
+                    <div class="project-card corp-card fade-up expandable-card">
+                        <div class="image-placeholder project-img lightbox-trigger" data-caption="Certifications Cover">
+                            <i class="fas fa-layer-group"></i><span>Certificates Cover Image</span>
+                        </div>
+                        <div class="project-content">
+                            <span class="course-code text-accent"><i class="fas fa-certificate"></i>
+                                Certifications</span>
+                            <h3 class="mb-2">Certifications & Awards (7 Items)</h3>
+                            <p>Professional certificates in tech along with consecutive Academic Excellence awards.</p>
+
+                            <button class="btn-text toggle-expand mt-3">View 7 Certificates <i
+                                    class="fas fa-chevron-down"></i></button>
+
+                            <div class="expanded-content">
+                                <div class="sub-grid">
+                                    <div class="sub-card">
+                                        <div class="image-placeholder mini-img lightbox-trigger"
+                                            data-caption="Academic Excellence ปี 1 เทอม 1">
+                                            <i class="fas fa-image"></i><span class="text-xs">Image</span>
+                                        </div>
+                                        <p class="text-sm fw-600 mt-2">ใบเรียนดี ปี1 (เทอม1)</p>
+                                        <p class="text-secondary text-xs">Excellence</p>
+                                    </div>
+                                    <div class="sub-card">
+                                        <div class="image-placeholder mini-img lightbox-trigger"
+                                            data-caption="Academic Excellence ปี 1 เทอม 2">
+                                            <i class="fas fa-image"></i><span class="text-xs">Image</span>
+                                        </div>
+                                        <p class="text-sm fw-600 mt-2">ใบเรียนดี ปี1 (เทอม2)</p>
+                                        <p class="text-secondary text-xs">Excellence</p>
+                                    </div>
+                                    <div class="sub-card">
+                                        <div class="image-placeholder mini-img lightbox-trigger"
+                                            data-caption="Academic Excellence ปี 2">
+                                            <i class="fas fa-image"></i><span class="text-xs">Image</span>
+                                        </div>
+                                        <p class="text-sm fw-600 mt-2">ใบเรียนดี ปี2</p>
+                                        <p class="text-secondary text-xs">Excellence</p>
+                                    </div>
+                                    <div class="sub-card">
+                                        <div class="image-placeholder mini-img lightbox-trigger"
+                                            data-caption="Intro to Cyber Crime">
+                                            <i class="fas fa-image"></i><span class="text-xs">Image</span>
+                                        </div>
+                                        <p class="text-sm fw-600 mt-2">Intro to Cyber Crime</p>
+                                        <p class="text-secondary text-xs">Great Learning</p>
+                                    </div>
+                                    <div class="sub-card">
+                                        <div class="image-placeholder mini-img lightbox-trigger"
+                                            data-caption="พื้นฐานการสร้างเกมด้วย AI ฉบับเข้าใจง่าย">
+                                            <i class="fas fa-image"></i><span class="text-xs">Image</span>
+                                        </div>
+                                        <p class="text-sm fw-600 mt-2">สร้างเกมด้วย AI</p>
+                                        <p class="text-secondary text-xs">FutureSkill</p>
+                                    </div>
+                                    <div class="sub-card">
+                                        <div class="image-placeholder mini-img lightbox-trigger"
+                                            data-caption="Data Analytics for Business">
+                                            <i class="fas fa-image"></i><span class="text-xs">Image</span>
+                                        </div>
+                                        <p class="text-sm fw-600 mt-2">Data Analytics</p>
+                                        <p class="text-secondary text-xs">FutureSkill</p>
+                                    </div>
+                                    <div class="sub-card">
+                                        <div class="image-placeholder mini-img lightbox-trigger"
+                                            data-caption="Design Thinking in Practice">
+                                            <i class="fas fa-image"></i><span class="text-xs">Image</span>
+                                        </div>
+                                        <p class="text-sm fw-600 mt-2">Design Thinking</p>
+                                        <p class="text-secondary text-xs">SET</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Activities Section -->
+        <section id="activities" class="section">
+            <div class="section-container">
+                <div class="section-header">
+                    <h2 class="section-title">Professional <span class="accent-text">Activities</span></h2>
+                    <div class="title-underline"></div>
+                </div>
+
+                <div class="projects-grid mt-4">
+
+                    <!-- Expandable Workshops Card -->
+                    <div class="project-card corp-card fade-up expandable-card">
+                        <div class="image-placeholder project-img lightbox-trigger"
+                            data-caption="Technical Workshops Banner">
+                            <i class="fas fa-laptop-code"></i><span>Cover Image</span>
+                        </div>
+                        <div class="project-content">
+                            <span class="course-code text-accent"><i class="fas fa-laptop-code"></i> Computer
+                                Science</span>
+                            <h3 class="mb-2">Technical Workshops (6 Items)</h3>
+                            <p>Hands-on sessions involving data viz, ERP, simulation, and geospatial systems.</p>
+
+                            <button class="btn-text toggle-expand mt-3">View 6 Workshops <i
+                                    class="fas fa-chevron-down"></i></button>
+
+                            <div class="expanded-content">
+                                <div class="sub-grid">
+                                    <div class="sub-card">
+                                        <div class="image-placeholder mini-img lightbox-trigger"
+                                            data-caption="Metro Systems Workshop">
+                                            <i class="fas fa-image"></i><span class="text-xs">Image</span>
+                                        </div>
+                                        <p class="text-sm fw-600 mt-2">Metro System WS</p>
+                                    </div>
+                                    <div class="sub-card">
+                                        <div class="image-placeholder mini-img lightbox-trigger"
+                                            data-caption="Field Data Collection Museum">
+                                            <i class="fas fa-image"></i><span class="text-xs">Image</span>
+                                        </div>
+                                        <p class="text-sm fw-600 mt-2">เก็บข้อมูลพิพิธภัณฑ์</p>
+                                        <p class="text-secondary text-xs">Field Research</p>
+                                    </div>
+                                    <div class="sub-card">
+                                        <div class="image-placeholder mini-img lightbox-trigger"
+                                            data-caption="Data Analytics by MS-Power BI">
+                                            <i class="fas fa-image"></i><span class="text-xs">Image</span>
+                                        </div>
+                                        <p class="text-sm fw-600 mt-2">MS-Power BI Workshop</p>
+                                        <p class="text-secondary text-xs">Samsonite</p>
+                                    </div>
+                                    <div class="sub-card">
+                                        <div class="image-placeholder mini-img lightbox-trigger"
+                                            data-caption="ERP for Digital Business Development">
+                                            <i class="fas fa-image"></i><span class="text-xs">Image</span>
+                                        </div>
+                                        <p class="text-sm fw-600 mt-2">ERP Business Dev</p>
+                                    </div>
+                                    <div class="sub-card">
+                                        <div class="image-placeholder mini-img lightbox-trigger"
+                                            data-caption="Geospatial Analysis Workshop">
+                                            <i class="fas fa-image"></i><span class="text-xs">Image</span>
+                                        </div>
+                                        <p class="text-sm fw-600 mt-2">Geospatial Analysis</p>
+                                    </div>
+                                    <div class="sub-card">
+                                        <div class="image-placeholder mini-img lightbox-trigger"
+                                            data-caption="VR Workshop">
+                                            <i class="fas fa-image"></i><span class="text-xs">Image</span>
+                                        </div>
+                                        <p class="text-sm fw-600 mt-2">VR Workshop</p>
+                                        <p class="text-secondary text-xs">วิทยากรภายนอก</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Expandable Strategy Card -->
+                    <div class="project-card corp-card fade-up expandable-card">
+                        <div class="image-placeholder project-img lightbox-trigger"
+                            data-caption="Business Strategy Banner">
+                            <i class="fas fa-briefcase"></i><span>Cover Image</span>
+                        </div>
+                        <div class="project-content">
+                            <span class="course-code text-accent"><i class="fas fa-briefcase"></i> Consulting</span>
+                            <h3 class="mb-2">Business & Strategy (2 Items)</h3>
+                            <p>Focusing on transformation use cases, project initiations, and estimations.</p>
+
+                            <button class="btn-text toggle-expand mt-3">View 2 Seminars <i
+                                    class="fas fa-chevron-down"></i></button>
+
+                            <div class="expanded-content">
+                                <div class="sub-grid">
+                                    <div class="sub-card">
+                                        <div class="image-placeholder mini-img lightbox-trigger"
+                                            data-caption="Business Transformation (Bytedance)">
+                                            <i class="fas fa-image"></i><span class="text-xs">Image</span>
+                                        </div>
+                                        <p class="text-sm fw-600 mt-2">Business Transform</p>
+                                        <p class="text-secondary text-xs">Bytedance</p>
+                                    </div>
+                                    <div class="sub-card">
+                                        <div class="image-placeholder mini-img lightbox-trigger"
+                                            data-caption="Software Project Initiation">
+                                            <i class="fas fa-image"></i><span class="text-xs">Image</span>
+                                        </div>
+                                        <p class="text-sm fw-600 mt-2">Software Initiation</p>
+                                        <p class="text-secondary text-xs">Seminar</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Expandable Events Card -->
+                    <div class="project-card corp-card fade-up expandable-card">
+                        <div class="image-placeholder project-img lightbox-trigger"
+                            data-caption="Exhibitions Events Banner">
+                            <i class="fas fa-globe"></i><span>Cover Image</span>
+                        </div>
+                        <div class="project-content">
+                            <span class="course-code text-accent"><i class="fas fa-globe"></i> Community</span>
+                            <h3 class="mb-2">Exhibitions & Events (6 Items)</h3>
+                            <p>Active participation in university events, ethics, and national inventor days.</p>
+
+                            <button class="btn-text toggle-expand mt-3">View 6 Events <i
+                                    class="fas fa-chevron-down"></i></button>
+
+                            <div class="expanded-content">
+                                <div class="sub-grid">
+                                    <div class="sub-card">
+                                        <div class="image-placeholder mini-img lightbox-trigger"
+                                            data-caption="Open House 2024">
+                                            <i class="fas fa-image"></i><span class="text-xs">Image</span>
+                                        </div>
+                                        <p class="text-sm fw-600 mt-2">HCU Open House</p>
+                                        <p class="text-secondary text-xs">2024</p>
+                                    </div>
+                                    <div class="sub-card">
+                                        <div class="image-placeholder mini-img lightbox-trigger"
+                                            data-caption="กิจกรรมเตรียมความพร้อม">
+                                            <i class="fas fa-image"></i><span class="text-xs">Image</span>
+                                        </div>
+                                        <p class="text-sm fw-600 mt-2">กิจกรรมเตรียมความพร้อม</p>
+                                    </div>
+                                    <div class="sub-card">
+                                        <div class="image-placeholder mini-img lightbox-trigger"
+                                            data-caption="Thailand Inventors Day (2025/2026)">
+                                            <i class="fas fa-image"></i><span class="text-xs">Image</span>
+                                        </div>
+                                        <p class="text-sm fw-600 mt-2">Inventors’ Day</p>
+                                        <p class="text-secondary text-xs">2025/2026</p>
+                                    </div>
+                                    <div class="sub-card">
+                                        <div class="image-placeholder mini-img lightbox-trigger"
+                                            data-caption="Cyberbullying: Law and Ethics">
+                                            <i class="fas fa-image"></i><span class="text-xs">Image</span>
+                                        </div>
+                                        <p class="text-sm fw-600 mt-2">Cyberbullying Ethics</p>
+                                    </div>
+                                    <div class="sub-card">
+                                        <div class="image-placeholder mini-img lightbox-trigger"
+                                            data-caption="HCU Open house 2025">
+                                            <i class="fas fa-image"></i><span class="text-xs">Image</span>
+                                        </div>
+                                        <p class="text-sm fw-600 mt-2">HCU Open House</p>
+                                        <p class="text-secondary text-xs">2025</p>
+                                    </div>
+                                    <div class="sub-card">
+                                        <div class="image-placeholder mini-img lightbox-trigger"
+                                            data-caption="Phadchimnithe 3">
+                                            <i class="fas fa-image"></i><span class="text-xs">Image</span>
+                                        </div>
+                                        <p class="text-sm fw-600 mt-2">Phadchimnithe 3</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- Expandable Extracurricular Card -->
+                    <div class="project-card corp-card fade-up expandable-card">
+                        <div class="image-placeholder project-img lightbox-trigger"
+                            data-caption="Leadership & Extracurriculars">
+                            <i class="fas fa-users"></i><span>Cover Image</span>
+                        </div>
+                        <div class="project-content">
+                            <span class="course-code text-accent"><i class="fas fa-running"></i> Extracurriculars</span>
+                            <h3 class="mb-2">Leadership & Sports (4 Items)</h3>
+                            <p>University representation in sports, club boards, and curriculum Q&A panels.</p>
+
+                            <button class="btn-text toggle-expand mt-3">View 4 Roles <i
+                                    class="fas fa-chevron-down"></i></button>
+
+                            <div class="expanded-content">
+                                <div class="sub-grid">
+                                    <div class="sub-card">
+                                        <div class="image-placeholder mini-img lightbox-trigger"
+                                            data-caption="University Club Election Committee">
+                                            <i class="fas fa-image"></i><span class="text-xs">Image</span>
+                                        </div>
+                                        <p class="text-sm fw-600 mt-2">Club Election Comm.</p>
+                                        <p class="text-secondary text-xs">University Level</p>
+                                    </div>
+                                    <div class="sub-card">
+                                        <div class="image-placeholder mini-img lightbox-trigger"
+                                            data-caption="Badminton Athlete at Pho Thong Sports Day">
+                                            <i class="fas fa-image"></i><span class="text-xs">Image</span>
+                                        </div>
+                                        <p class="text-sm fw-600 mt-2">นักกีฬาแบดมินตันหญิง</p>
+                                        <p class="text-secondary text-xs">งานโพธิ์ทอง</p>
+                                    </div>
+                                    <div class="sub-card">
+                                        <div class="image-placeholder mini-img lightbox-trigger"
+                                            data-caption="Recreation & Cheer Representative">
+                                            <i class="fas fa-image"></i><span class="text-xs">Image</span>
+                                        </div>
+                                        <p class="text-sm fw-600 mt-2">ตัวแทนแข่งขันสันทนาการ</p>
+                                        <p class="text-secondary text-xs">งานโพธิ์ทอง</p>
+                                    </div>
+                                    <div class="sub-card">
+                                        <div class="image-placeholder mini-img lightbox-trigger"
+                                            data-caption="Q&A Representative (University & Curriculum)">
+                                            <i class="fas fa-image"></i><span class="text-xs">Image</span>
+                                        </div>
+                                        <p class="text-sm fw-600 mt-2">Q&A Representative</p>
+                                        <p class="text-secondary text-xs">University / Course</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section bg-light">
+            <div class="section-container">
+                <div class="contact-box corp-card fade-up">
+                    <h2 class="text-center mb-4">Contact Information</h2>
+
+                    <div class="contact-info-grid">
+                        <div class="info-card">
+                            <i class="fas fa-phone-alt"></i>
+                            <span>089-030-4422</span>
+                        </div>
+                        <div class="info-card email-card">
+                            <i class="fas fa-envelope"></i>
+                            <span>siriwimonsitasen1@gmail.com</span>
+                        </div>
+                        <div class="info-card">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Bang Chalong, Bang Phli, Samut Prakan 10540</span>
+                        </div>
+                    </div>
+
+                    <div class="text-center mt-4">
+                        <a href="https://github.com/Pear1790" target="_blank" class="btn btn-primary"><i
+                                class="fab fa-github"></i> GitHub: Pear1790</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2026 Siriwimon Sitasen. All rights reserved. | Portfolio</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
