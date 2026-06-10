@@ -210,7 +210,7 @@ My-portfolio/
 **Email:** [siriwimonsitasen1@gmail.com]  
 **GitHub:** [https://github.com/Pear1790]  
 **LinkedIn:** [https://www.linkedin.com/in/%E0%B8%AA%E0%B8%B4%E0%B8%A3%E0%B8%B4%E0%B8%A7%E0%B8%B4%E0%B8%A1%E0%B8%A5-%E0%B8%AA%E0%B8%B4%E0%B8%95%E0%B8%B0%E0%B9%80%E0%B8%AA%E0%B8%99-b2713b39b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app]  
-**Website:** [https://pear1790.github.io/My-portfolio/] , [https://github.com/Pear1790/My-portfolio.git]
+**Website:** [https://pear1790.github.io/My-portfolio/] 
 
 ---
 
