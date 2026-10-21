@@ -36,11 +36,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Typing Effect for Hero Subtitle
     const roles = [
-        "Embedded Systems Engineer",
+        "Web Developer",
         "Software Engineer",
-        "IoT Developer",
         "Full-Stack Developer",
-        "R&D Engineer"
+        "Infrastructure & DevOps",
+        "Embedded & IoT Developer"
     ];
     
     let roleIndex = 0;
