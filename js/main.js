@@ -39,8 +39,8 @@ document.addEventListener('DOMContentLoaded', () => {
         "Web Developer",
         "Software Engineer",
         "Full-Stack Developer",
-        "Infrastructure & DevOps",
-        "Embedded & IoT Developer"
+        "Embedded & IoT Developer",
+        "R&D Engineer"
     ];
     
     let roleIndex = 0;
